@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'containerniyi9954ba93-auth'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'Hosted Agent'
 
 
 stages:
