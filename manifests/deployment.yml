@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: babnizeewebbb 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: babnizeewebbb
+  template:
+    metadata:
+      labels:
+        app: babnizeewebbb 
+    spec:
+      containers:
+        - name: babnizeewebbb 
+          image: containerniyi.azurecr.io/babnizeewebbb
+          ports:
+          - containerPort: 5000
